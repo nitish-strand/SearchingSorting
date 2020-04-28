@@ -43,34 +43,7 @@ namespace PracticeAssignment
 				}
 
 			}
-					//if(ObjectType == "Int")
-					//{
-					//	if (Convert.ToInt32(MyArray[j]) > Convert.ToInt32(MyArray[j + 1]))
-					//	{
-					//		swap(i, j);
-					//	}
-					//}
-					//else if(ObjectType == "Float")
-					//{
-					//	if (Convert.ToDecimal(MyArray[j]) > Convert.ToDecimal(MyArray[j + 1]))
-					//	{
-					//		swap(i, j);
-					//	}
-					//}
-					//else if (ObjectType == "Double")
-					//{
-					//	if (Convert.ToDouble(MyArray[j]) > Convert.ToDouble(MyArray[j + 1]))
-					//	{
-					//		swap(i, j);
-					//	}
-					//}
-					//else if (ObjectType == "String")
-					//{
-					//	if (Convert.ToString(MyArray[j]).CompareTo(Convert.ToString(MyArray[j + 1])) > 0)
-					//	{
-					//		swap(i, j);
-					//	}
-					//}
+			
 			return MyArray;
 		}
 

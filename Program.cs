@@ -38,29 +38,29 @@ namespace PracticeAssignment
             // if co-ordinate operation
             if (DataType == "Co-ordinate")
             {
-                List<List<int>> multiarray = new List<List<int>>();
-                
-                for(int i=0; i< ArraySize; i++)
+                List<CoOrdinate> coordinates = new List<CoOrdinate>();
+
+                for (int i=0; i< ArraySize; i++)
                 {
-                    List<int> x_y = new List<int>();
                     Console.WriteLine("Enter X : ");
                     int x = Convert.ToInt32(Console.ReadLine());
+
                     Console.WriteLine("Enter Y : ");
                     int y = Convert.ToInt32(Console.ReadLine());
 
-                    CoOrdinate obj = new CoOrdinate(x,y);
-                    x_y = obj.coOrdinates();
-                    multiarray.Add(x_y);
+                    CoOrdinate obj = new CoOrdinate(x, y);
+                    coordinates.Add(obj);
                 }
-                List<List<int>> sortedList = multiarray.OrderBy(x => x[1]).OrderBy(y => y[0]).ToList();
-                foreach(var item in sortedList)
-                {
-                    foreach(var xy in item)
-                    {
-                        Console.Write(xy + " ");
-                    }
-                    Console.WriteLine();
-                }
+                Console.WriteLine("Sorting co-ordinate in preference of X: ");
+                coordinates.Sort();
+                PrintCoOrdinates(coordinates);
+                
+
+                Console.WriteLine("Sorting co-ordinate in preference of Y: ");
+                CoOrdinateComparer ccObj = new CoOrdinateComparer();
+                coordinates.Sort(ccObj);
+                PrintCoOrdinates(coordinates);
+
                 Console.ReadKey();
                 return;
             }
@@ -138,6 +138,15 @@ namespace PracticeAssignment
                 Console.ReadKey();
             }
             
+        }
+        
+        static void PrintCoOrdinates(List<CoOrdinate> coordinates)
+        {
+            foreach (CoOrdinate cordinate in coordinates)
+            {
+                Console.WriteLine(cordinate.X + ", " + cordinate.Y);
+            }
+            Console.WriteLine();
         }
 
         static object[] FillArray(int size, string DataType)

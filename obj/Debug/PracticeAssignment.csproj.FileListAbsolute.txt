@@ -4,3 +4,9 @@ C:\Users\Nitish\source\repos\PracticeAssignment\bin\Debug\PracticeAssignment.pdb
 C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.csprojAssemblyReference.cache
 C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.exe
 C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.pdb
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\bin\Debug\PracticeAssignment.exe.config
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\bin\Debug\PracticeAssignment.exe
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\bin\Debug\PracticeAssignment.pdb
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\obj\Debug\PracticeAssignment.csprojAssemblyReference.cache
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\obj\Debug\PracticeAssignment.exe
+C:\Users\nitish\Downloads\drive-download-20200428T182143Z-001\PracticeAssignment\obj\Debug\PracticeAssignment.pdb

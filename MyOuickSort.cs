@@ -38,8 +38,6 @@ namespace PracticeAssignment
 		{
 			object pivot = arr[high];
 
-			
-
 			int i = (low - 1);
 			for (int j=low; j <high; j++)
 			{
@@ -61,54 +59,6 @@ namespace PracticeAssignment
 			arr[high] = temp1;
 
 			return i + 1;
-
-			//if(ObjectType == "Int")
-			//{
-			//	int pivot = Convert.ToInt32(arr[high]);
-
-			//	int i = (low - 1);
-			//	for (int j = low; j < high; j++)
-			//	{
-			//		if (Convert.ToInt32(arr[j]) < pivot)
-			//		{
-			//			i++;
-
-			//			int temp = Convert.ToInt32(arr[i]);
-			//			arr[i] = arr[j];
-			//			arr[j] = temp;
-			//		}
-			//	}
-
-			//	int temp1 = Convert.ToInt32(arr[i + 1]);
-			//	arr[i + 1] = arr[high];
-			//	arr[high] = temp1;
-
-			//	return i + 1;
-			//}
-			//else
-			//{
-			//	string pivot = Convert.ToString(arr[high]);
-
-			//	int i = (low - 1);
-			//	for (int j = low; j < high; j++)
-			//	{
-			//		if (Convert.ToString(arr[j]).CompareTo(pivot) < 0)
-			//		{
-			//			i++;
-
-			//			string temp = Convert.ToString(arr[i]);
-			//			arr[i] = arr[j];
-			//			arr[j] = temp;
-			//		}
-			//	}
-
-			//	string temp1 = Convert.ToString(arr[i + 1]);
-			//	arr[i + 1] = arr[high];
-			//	arr[high] = temp1;
-
-			//	return i + 1;
-			//}
-
 		}
 
 		public object[] quickSort(object[] arr, int low, int high)

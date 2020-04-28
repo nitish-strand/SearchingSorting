@@ -77,63 +77,6 @@ namespace PracticeAssignment
                 }
                 k++;
 
-                //if(ObjectType == "Int")
-                //{
-                //    if (Convert.ToInt32(L[i]) <= Convert.ToInt32(R[j]))
-                //    {
-                //        MyArray[k] = L[i];
-                //        i++;
-                //    }
-                //    else
-                //    {
-                //        MyArray[k] = R[j];
-                //        j++;
-                //    }
-                //    k++;
-                //}
-                //if (ObjectType == "Float")
-                //{
-                //    if (Convert.ToDecimal(L[i]) <= Convert.ToDecimal(R[j]))
-                //    {
-                //        MyArray[k] = L[i];
-                //        i++;
-                //    }
-                //    else
-                //    {
-                //        MyArray[k] = R[j];
-                //        j++;
-                //    }
-                //    k++;
-                //}
-                //if (ObjectType == "Double")
-                //{
-                //    if (Convert.ToDouble(L[i]) <= Convert.ToDouble(R[j]))
-                //    {
-                //        MyArray[k] = L[i];
-                //        i++;
-                //    }
-                //    else
-                //    {
-                //        MyArray[k] = R[j];
-                //        j++;
-                //    }
-                //    k++;
-                //}
-                //else
-                //{
-                //    if (Convert.ToString(L[i]).CompareTo(Convert.ToString(R[j])) <= 0)
-                //    {
-                //        MyArray[k] = L[i];
-                //        i++;
-                //    }
-                //    else
-                //    {
-                //        MyArray[k] = R[j];
-                //        j++;
-                //    }
-                //    k++;
-                //}
-
             }
             while (i < n1)
             {

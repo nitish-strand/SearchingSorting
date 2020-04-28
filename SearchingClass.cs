@@ -48,41 +48,15 @@ namespace PracticeAssignment
 				{
 					return i;
 				}
-
-				//if(ObjectType == "Int")
-				//{
-				//	if (Convert.ToInt32(Element) == Convert.ToInt32(Array[i]))
-				//	{
-				//		return i;
-				//	}
-				//}
-				//else if (ObjectType == "Float")
-				//{
-				//	if (Convert.ToDecimal(Element) == Convert.ToDecimal(Array[i]))
-				//	{
-				//		return i;
-				//	}
-				//}
-				//else if (ObjectType == "Decimal")
-				//{
-				//	if (Convert.ToDouble(Element) == Convert.ToDouble(Array[i]))
-				//	{
-				//		return i;
-				//	}
-				//}
-				//else if (ObjectType == "String")
-				//{
-				//	if (Convert.ToString(Element).Equals(Array[i]))
-				//	{
-				//		return i;
-				//	}
-				//}
 			}
 			return -1;
 		}
 
 		public int BinarySearch()
 		{
+			MyBubbleSort BSobj = new MyBubbleSort(Array, ObjectType);
+			Array = BSobj.MyArray;
+
 			int l = 0, r = Array.Length - 1;
 			while (l <= r)
 			{
@@ -96,43 +70,6 @@ namespace PracticeAssignment
 					l = m + 1;
 				else
 					r = m - 1;
-				
-				//if (ObjectType == "Int")
-				//{
-				//	if (Convert.ToInt32(Array[m]) == Convert.ToInt32(_element))
-				//		return m;
-				//	if (Convert.ToInt32(Array[m]) < Convert.ToInt32(_element))
-				//		l = m + 1;
-				//	else
-				//		r = m - 1;
-				//}
-				//if (ObjectType == "Float")
-				//{
-				//	if (Convert.ToDecimal(Array[m]) == Convert.ToDecimal(_element))
-				//		return m;
-				//	if (Convert.ToDecimal(Array[m]) < Convert.ToDecimal(_element))
-				//		l = m + 1;
-				//	else
-				//		r = m - 1;
-				//}
-				//if (ObjectType == "Double")
-				//{
-				//	if (Convert.ToDouble(Array[m]) == Convert.ToDouble(_element))
-				//		return m;
-				//	if (Convert.ToDouble(Array[m]) < Convert.ToDouble(_element))
-				//		l = m + 1;
-				//	else
-				//		r = m - 1;
-				//}
-				//if (ObjectType == "String")
-				//{
-				//	if (Convert.ToString(Array[m]) == Convert.ToString(_element))
-				//		return m;
-				//	if (Convert.ToString(Array[m]).CompareTo(Convert.ToString(_element)) < 0)
-				//		l = m + 1;
-				//	else
-				//		r = m - 1;
-				//}
 			}
 
 			return -1;
