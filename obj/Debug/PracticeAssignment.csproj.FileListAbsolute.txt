@@ -1,0 +1,6 @@
+C:\Users\Nitish\source\repos\PracticeAssignment\bin\Debug\PracticeAssignment.exe.config
+C:\Users\Nitish\source\repos\PracticeAssignment\bin\Debug\PracticeAssignment.exe
+C:\Users\Nitish\source\repos\PracticeAssignment\bin\Debug\PracticeAssignment.pdb
+C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.csprojAssemblyReference.cache
+C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.exe
+C:\Users\Nitish\source\repos\PracticeAssignment\obj\Debug\PracticeAssignment.pdb
